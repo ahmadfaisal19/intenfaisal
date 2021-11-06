@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Intenfaisal">
-        <activity android:name=".MoveWihtDataActivity"></activity>
+        <activity android:name=".MoveWithDataActivity"></activity>
+        <activity android:name=".MoveWihtDataActivity" />
         <activity android:name=".MoveActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

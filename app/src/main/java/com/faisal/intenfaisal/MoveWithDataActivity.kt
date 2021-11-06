@@ -1,4 +1,5 @@
 package com.faisal.intenfaisal
+
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -12,7 +13,7 @@ class MoveWithDataActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_move_wiht_data )
+        setContentView(R.layout.activity_move_with_data)
 
         tvDataReceved = findViewById(R.id.tv_data_receiver)
         DataRecevide()
